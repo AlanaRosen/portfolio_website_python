@@ -1,0 +1,7 @@
+body {
+    background-image: url("/static/img/peach.jpg");
+    background-size: 100% 100%;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

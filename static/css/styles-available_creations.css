@@ -1,0 +1,16 @@
+body {
+    background-image: url("static/img/orange leaves.jpg");
+    background-color: rgb(252, 165, 5);
+}
+
+.item_1_images {
+    align-items: center;
+}
+
+.item_1_description {
+    align-content: center;
+}
+
+.item_1_price {
+    align-content: center;
+}

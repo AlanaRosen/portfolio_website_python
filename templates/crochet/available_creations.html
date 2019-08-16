@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<head>
+    <link href="static/css/styles-available_creations.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <h1>Available Creations</h1>
+
+    <table class="item_1">
+        <tbody>
+            <tr class="item_1_images">
+                <td>
+                    <img src="/static/img/unicorn front.jpg" alt="front of a white stuff animal unicorn roughly 13 inches tall with multicolored curly hair" class="img-fluid" />
+                </td>
+                <td>
+                    <img src="/static/img/unicorn back.jpg" alt="back of a white stuff animal unicorn roughly 13 inches tall with multicolored curly hair" class="img-fluid" />
+                </td>
+            </tr>
+
+            <tr class="item_1_description"> 
+                This is a hand-made unicorn stuffed animal that measures approximately 13 inches tall. 
+            </tr>
+
+            <tr class="item_1_price">
+                $35
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+{% endblock %}
+
+<!--Should I add a nav bar containing custom order form and yarn options? 
+    Should I make a basic home page for just crochet in general, then have a nav bar for the sub-pages of pre-made items, yarn options, and custom order form?-->

@@ -1,0 +1,127 @@
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ink Free", "Century Gothic", sans-serif;
+  font-size: 19px;
+  margin-left:5%;
+  margin-right:5%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  background-size: 100% 100%;
+  background-image: url("/static/img/pink.jpg");
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  padding: 20px;
+}
+
+.videos {
+  float: center;
+  padding: 20px;
+}
+
+.title {
+  font-family: "Broadway", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin: 40px;
+}
+
+#title2 {
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+#Scribe {
+  margin: auto;
+  border-radius: 90%;
+  border: thick solid black;
+}
+
+#ScribeInfo {
+  margin: auto;
+  padding: 9px;
+  border-radius: 9%;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  vertical-align: middle;
+}
+
+#Trinidad {
+  margin: auto;
+  border-radius: 90%;
+  border: medium solid black;
+}
+
+#TrinidadInfo {
+  margin: auto;
+  padding: 9px;
+  border-radius: 9%;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  vertical-align: middle;
+}
+
+#Crimson {
+  margin: auto;
+  border-radius: 90%;
+  border: medium solid black;
+}
+
+#CrimsonInfo {
+  margin: auto;
+  padding: 9px;
+  border-radius: 9%;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  vertical-align: middle;
+}
+
+#Tiger {
+  margin: auto;
+  border-radius: 90%;
+  border: medium solid black;
+}
+
+#TigerInfo {
+  margin: auto;
+  padding: 9px;
+  border-radius: 9%;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  vertical-align: middle;
+}
+
+#SnuggleBug {
+  margin: auto;
+  border-radius: 90%;
+  border: medium solid black;
+}
+
+#SnuggleBugInfo {
+  margin: auto;
+  padding: 9px;
+  border-radius: 9%;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  vertical-align: middle;
+}

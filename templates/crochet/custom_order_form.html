@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  
+<head>
+    <link href="static/styles-custom_order_form.css" rel="stylesheet" type="text/css" />
+</head>
+    <h1>Custom Order Form</h1>
+
+    <body>
+
+        <form method='POST'>
+
+            <div class="dropdown-menu">
+                <span class="dropdown-item-text">Select an Item</span>
+                <span class="dropdown-item-text">octopus 1</span>
+                <span class="dropdown-item-text">octopus 2</span>
+                <span class="dropdown-item-text">unicorn 1</span>
+                <span class="dropdown-item-text">unicorn 2</span>
+            </div>
+
+            <div>
+                <label for='request_item'>Request Something New: </label>
+                <input type="file" name="img" multiple>
+            </div>
+
+            <div>
+                <label for='request_item_comments'>Anything you would like to say about this item? </label>
+            <br />
+                <textarea length="75px" width="150px" placeholder="Feel free to include details and/or preferences as you see fit - I will contact you if I have further questions."></textarea>
+            </div>
+
+            <div>
+                <label for='completion_date'>Requested Completion Date: </label>
+                <input type="date" name='completion_date'>
+            </div>
+                    
+        </form>
+
+    </body>
+
+{% endblock %}
