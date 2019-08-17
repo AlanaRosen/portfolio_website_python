@@ -1,6 +1,31 @@
-.navbar-custom {
+.navbar {
     font-family: "Magneto", "Century Gothic", sans-serif;
     font-size: 29px;
-    text-align: center;
     margin-top: 37px;
+    color: rgb(235, 18, 144);
 }
+
+/* unvisited link */
+.navbar a:link {
+    color: rgb(189, 6, 76);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+.navbar a:visited {
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+.navbar a:hover {
+    color: hotpink;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+.navbar a:active {
+    color: hotpink;
+    background-color: deeppink;
+    text-decoration: none;
+  }
