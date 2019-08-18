@@ -52,6 +52,13 @@ def index_blog_origins():
 def index_blog_terror():
     #display 'blog_terror.html'
     return render_template('/blog/blog_terror.html', title="RUN")
+
+#establish url for about me section
+@app.route('/about_me', methods=['GET'])
+def index_about_me():
+    #display 'about_me.html'
+    return render_template('about_me.html', title="About Me")
+
 	
 
 app.run()

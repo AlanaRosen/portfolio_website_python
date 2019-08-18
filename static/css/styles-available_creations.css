@@ -1,16 +1,11 @@
 body {
-    background-image: url("static/img/orange leaves.jpg");
-    background-color: rgb(252, 165, 5);
+    background-image: linear-gradient(to right, brown, rgb(114, 24, 24));
 }
 
-.item_1_images {
-    align-items: center;
+.modal-dialog {
+    background-color: gray;
 }
 
-.item_1_description {
-    align-content: center;
-}
-
-.item_1_price {
+.modal-title modal-body {
     align-content: center;
 }
