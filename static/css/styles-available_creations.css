@@ -1,11 +1,53 @@
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .column, .navbar {   
+      flex-direction: column;
+    }
+  }
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-image: linear-gradient(to right, brown, rgb(114, 24, 24));
+    background-image: radial-gradient(rgb(126, 5, 75), black);
 }
 
-.modal-dialog {
-    background-color: gray;
+h1 {
+    margin: 35px;
+    font-family: "Broadway", "Calibri", sans-serif;
+    color: rgb(252, 252, 6);
+    text-align: center;
 }
 
-.modal-title modal-body {
-    align-content: center;
+button {
+    background-color: red;
+    color: white;
+    padding: 9px 13px;
+    border: 5px solid rgb(223, 39, 116);
+    border-radius: 8px; /*rounds the corners*/
 }
+
+.modal-header {
+    float: right; /*needed to use the class for alignment of button*/
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.column {
+    flex: 30%;
+    max-width: 30%;
+    padding: 20px;
+    padding: 0 4px;
+}
+
+#description_price {
+    font-family: "Century Gothic", sans-serif;
+    font-style: bold;
+    color: white;
+    text-align: center;
+}
+

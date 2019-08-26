@@ -35,14 +35,41 @@ a:active {
 
 
 #terror_link {
-    background-image: url("/static/img/ink.jpg");
+    background-image: url("/static/img/fractal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 60px;
     text-align: left;
     font-family: "Matura MT Script Capitals", sans-serif;
-    font-size: 55px;
+    font-size: 65px;
     font-weight: bolder;
     text-decoration: none;
     /* background-blend-mode: color; */
+}
+
+#religion_link {
+    background-image: url("/static/img/incense.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+    text-align: left;
+    font-family: "Matura MT Script Capitals", sans-serif;
+    font-size: 65px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#origin_link {
+    background-image: url("/static/img/galaxy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+    text-align: left;
+    font-family: "Matura MT Script Capitals", sans-serif;
+    font-size: 65px;
+    font-weight: bolder;
+    text-decoration: none;
 }
