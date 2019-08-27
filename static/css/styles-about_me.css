@@ -9,3 +9,24 @@
     box-sizing: border-box;
 }
 
+body {
+  background-image: radial-gradient(black, gray, black, gray);
+}
+
+img {
+  max-width: 35%;
+  border-radius: 100%;
+  align-self: center;
+  margin: 50px;
+  border: thick solid black;
+}
+
+div {
+  text-align: center;
+  color: orchid;
+}
+
+h4 {
+  padding: 7px;
+}
+

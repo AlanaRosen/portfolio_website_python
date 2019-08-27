@@ -57,7 +57,7 @@ def index_blog_terror():
 @app.route('/about_me', methods=['GET'])
 def index_about_me():
     #display 'about_me.html'
-    return render_template('about_me.html', title="About Me")
+    return render_template('about_me/index.html', title="About Me")
 
 	
 if __name__ == '__main__':

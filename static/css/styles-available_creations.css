@@ -11,6 +11,7 @@
 
 body {
     background-image: radial-gradient(rgb(126, 5, 75), black);
+    overflow: hidden;
 }
 
 h1 {
