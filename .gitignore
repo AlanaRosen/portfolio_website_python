@@ -1,2 +1,11 @@
-.vscode
 *.pyc
+
+# Terraform
+#
+# Platform-specific plugins initialized on `terraform init`.
+.terraform/
+# Secret keys accessible through `${var.*}`.
+*.tfvars
+# Local state unless a remote bucket is used.
+*.tfstate
+.vscode/settings.json

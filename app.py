@@ -1,5 +1,5 @@
+import os
 from flask import Flask, request, redirect, render_template
-
 
 #create app and allow for active debugging
 app = Flask(__name__)
@@ -60,5 +60,10 @@ def index_about_me():
     return render_template('about_me.html', title="About Me")
 
 	
+if __name__ == '__main__':
+    server_port = os.environ.get('PORT')
+    if server_port is None:
+        print("error: PORT environment variable not set")
+        exit(1)
 
-app.run()
+    app.run(debug=False, port=server_port, host='127.0.0.1')

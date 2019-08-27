@@ -1,0 +1,19 @@
+runtime: python37
+instance_class: F1
+automatic_scaling:
+  target_cpu_utilization: 0.6 # default value
+  min_instances: 0
+  max_instances: 20
+  min_pending_latency: 30ms  # default value
+  max_pending_latency: automatic # ydefault value
+  max_concurrent_requests: 8 # default value
+entrypoint: gunicorn -c gunicorn.conf.py app:app
+handlers:
+- url: /img
+  static_dir: static/img
+- url: /css
+  static_dir: static/css
+- url: /.*
+  secure: always
+  redirect_http_response_code: 301
+  script: auto
