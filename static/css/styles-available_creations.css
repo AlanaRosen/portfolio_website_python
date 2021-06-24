@@ -2,7 +2,7 @@
 @media screen and (max-width: 700px) {
     .column, .navbar {   
       flex-direction: column;
-      justify-content: center;
+      /*justify-content: center;*/
     }
   }
 
@@ -44,6 +44,7 @@ button {
     max-width: 30%;
     padding: 20px;
     padding: 0 4px;
+    position: absolute;
     /*justify-content: center;*/
 }
 
