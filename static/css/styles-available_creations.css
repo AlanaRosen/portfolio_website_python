@@ -43,13 +43,9 @@ button {
     max-width: 30%;
     padding: 20px;
     padding: 0 4px;
+    float: inherit;
     /*flex-direction: column;
     align-self: center;*/
-}
-
-.words {
-    flex: 30%;
-    padding: 20px;
 }
 
 #description_price {
