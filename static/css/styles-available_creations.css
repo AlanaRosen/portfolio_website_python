@@ -36,6 +36,7 @@ button {
 .row {
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
 }
   
 .column {
@@ -43,8 +44,8 @@ button {
     max-width: 30%;
     padding: 20px;
     padding: 0 4px;
-    flex-direction: column;
-    align-self: center;
+    /*flex-direction: column;
+    align-self: center;*/
 }
 
 #description_price {
