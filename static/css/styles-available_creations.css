@@ -40,14 +40,14 @@ button {
   
 .column1 {
     flex: 30%;
-    max-width: 30%;
+    max-width: 1%;
     padding: 10px;
     align-content: center;
 }
 
 .column2 {
     flex: 30%;
-    max-width: 30%;
+    max-width: 1%;
     padding: 10px;
     align-content: center;
 }
