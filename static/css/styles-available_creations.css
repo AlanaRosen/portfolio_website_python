@@ -43,7 +43,7 @@ button {
     max-width: 30%;
     padding: 20px;
     padding: 0 4px;
-    justify-content: center;
+    flex-direction: column;
 }
 
 #description_price {
