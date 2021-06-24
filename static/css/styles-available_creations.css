@@ -44,7 +44,7 @@ button {
     max-width: 30%;
     padding: 20px;
     padding: 0 4px;
-    /*position: absolute;*/
+    position: absolute;
     justify-content: center;
 }
 
