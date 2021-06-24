@@ -41,19 +41,16 @@ button {
 .column1 {
     flex: 30%;
     padding: 10px;
-    padding: 0 4px;
 }
 
 .column2 {
     flex: 30%;
     padding: 10px;
-    padding: 0 4px;
 }
 
 .column3 {
     flex: 30%;
     padding: 10px;
-    padding: 0 4px;
 }
 
 #description_price {
