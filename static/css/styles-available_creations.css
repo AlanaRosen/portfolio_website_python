@@ -38,14 +38,22 @@ button {
     flex-wrap: wrap;
 }
   
-.column {
-    flex: 50%;
-    max-width: 30%;
-    padding: 20px;
+.column1 {
+    flex: 30%;
+    padding: 10px;
     padding: 0 4px;
-    float: inherit;
-    /*flex-direction: column;
-    align-self: center;*/
+}
+
+.column2 {
+    flex: 30%;
+    padding: 10px;
+    padding: 0 4px;
+}
+
+.column3 {
+    flex: 30%;
+    padding: 10px;
+    padding: 0 4px;
 }
 
 #description_price {
