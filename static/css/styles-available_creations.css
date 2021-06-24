@@ -44,8 +44,8 @@ button {
     max-width: 30%;
     padding: 20px;
     padding: 0 4px;
-    /*position: absolute;
-    justify-content: center;*/
+    /*position: absolute;*/
+    justify-content: center;
 }
 
 #description_price {
