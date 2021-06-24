@@ -36,7 +36,6 @@ button {
 .row {
     display: flex;
     flex-wrap: wrap;
-    align-self: center;
 }
   
 .column {
@@ -44,6 +43,7 @@ button {
     max-width: 30%;
     padding: 20px;
     padding: 0 4px;
+    margin: auto;
     /*flex-direction: column;
     align-self: center;*/
 }
