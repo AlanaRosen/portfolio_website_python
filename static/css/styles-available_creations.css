@@ -39,19 +39,19 @@ button {
 }
   
 .column1 {
-    flex-basis: 30%;
+    flex-basis: 100px;
     padding: 10px;
     align-content: center;
 }
 
 .column2 {
-    flex-basis: 30%;
+    flex-basis: 100px;
     padding: 10px;
     align-content: center;
 }
 
 .column3 {
-    flex-basis: 30%;
+    flex-basis: 100px;
     padding: 10px;
     align-content: center;
 }
