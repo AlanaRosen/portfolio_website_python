@@ -29,6 +29,11 @@ button {
     border-radius: 8px; /*rounds the corners*/
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .modal-header {
     float: right; /*needed to use the class for alignment of button*/
 }
@@ -39,19 +44,16 @@ button {
 }
   
 .column1 {
-    flex-basis: 100px;
     padding: 10px;
     align-content: center;
 }
 
 .column2 {
-    flex-basis: 100px;
     padding: 10px;
     align-content: center;
 }
 
 .column3 {
-    flex-basis: 100px;
     padding: 10px;
     align-content: center;
 }
