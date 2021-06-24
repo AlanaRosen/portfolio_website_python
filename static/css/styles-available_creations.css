@@ -36,17 +36,20 @@ button {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    vertical-align: middle;
 }
   
 .column {
-    flex: 30%;
+    flex: 50%;
     max-width: 30%;
     padding: 20px;
     padding: 0 4px;
     /*flex-direction: column;
     align-self: center;*/
+}
+
+.words {
+    flex: 30%;
+    padding: 20px;
 }
 
 #description_price {
