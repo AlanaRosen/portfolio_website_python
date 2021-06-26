@@ -38,17 +38,12 @@ button {
     flex-wrap: wrap;
 }
   
-.column1 {
+#column1 {
     margin: 10px;
     align-content: center;
 }
 
-.column2 {
-    margin: 10px;
-    align-content: center;
-}
-
-.column3 {
+#column2 {
     margin: 10px;
     align-content: center;
 }
