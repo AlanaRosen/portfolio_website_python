@@ -11,24 +11,26 @@
   <h1>Available Creations</h1>
   
   <!-- Click Smaller Image to Open the Modal -->
-  <div class="row"> <!--allows for styling of image placement--> 
-    <div class="img-fluid" id="column1"> <!--groups together the two images, description, and price-->
+  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
+    <div class="row"> <!--groups together the two images, description, and price-->
+      <div class="col-md-4"> <!--defines the container size of first image and when to change layout for smaller screen-->  
         <a data-toggle="modal" data-target="#modal_unicorn_front" href="/static/img/unicorn front.jpg">
           <img src="/static/img/unicorn front.jpg" id="unicorn_front" style="max-width:20%;height:auto" />
         </a>
       </div>
-
-    <div class="img-fluid" id="column2"> <!--groups together the two images, description, and price-->
+    
+      <div class="col-md-4"> <!--defines the container size of second image and when to change layout for smaller screen-->
         <a data-toggle="modal" data-target="#modal_unicorn_back" href="/static/img/unicorn back.jpg">
           <img src="/static/img/unicorn back.jpg" id="unicorn_back" style="max-width:20%;height:auto" />
         </a>
       </div>
 
-    <div class="text-center" id="description_price">
-      <p>This is a hand-made unicorn stuffed animal that measures approximately 13 inches tall.</p>
-      <p>$35</p>
-    </div>
-  </div> <!--ends the row-->
+      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
+        <p>This is a hand-made unicorn stuffed animal that measures approximately 13 inches tall.</p>
+        <p>$35</p>
+      </div>
+    </div> <!--ends the row-->
+  </div> <!--ends the fluid container-->
 
     <!-- The Modal for unicorn_front -->
     <div class="modal" id="modal_unicorn_front">
