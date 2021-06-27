@@ -13,7 +13,7 @@ def index_home():
 #establish url path for crocheted items list
 @app.route('/crochet', methods=['GET'])
 def index_crochet():
-    #display pre-made_items.html
+    #display available_creations.html
     return render_template('crochet/available_creations.html', title="Yarntastic Adventures")
 
 #establish url for custom order form
