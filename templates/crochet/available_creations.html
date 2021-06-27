@@ -13,18 +13,14 @@
   <!-- Click Smaller Image to Open the Modal -->
   <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
     <div class="row"> <!--groups together the two images, description, and price-->
-      <div class="col-md-4 mx-auto d-block" style="width:50%"> <!--defines the container size of first image and when to change layout for smaller screen then centers the img-->  
-        <a data-toggle="modal" data-target="#modal_unicorn_front" href="/static/img/unicorn front.jpg">
-          <img src="/static/img/unicorn front.jpg" id="unicorn_front"/>
-        </a>
-      </div>
-    
-      <div class="col-md-4 mx-auto d-block" style="width:50%"> <!--defines the container size of second image and when to change layout for smaller screen then centers the img-->
-        <a data-toggle="modal" data-target="#modal_unicorn_back" href="/static/img/unicorn back.jpg">
-          <img src="/static/img/unicorn back.jpg" id="unicorn_back"/>
-        </a>
-      </div>
-
+      <a data-toggle="modal" data-target="#modal_unicorn_front" href="/static/img/unicorn front.jpg">
+        <img src="/static/img/unicorn front.jpg" id="unicorn_front" class="col-md-4 mx-auto d-block" style="width:70%"/>
+      </a>
+         
+      <a data-toggle="modal" data-target="#modal_unicorn_back" href="/static/img/unicorn back.jpg">
+        <img src="/static/img/unicorn back.jpg" id="unicorn_back" class="col-md-4 mx-auto d-block" style="width:70%"/>
+      </a>
+      
       <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
         <p>This is a hand-made unicorn stuffed animal that measures approximately 13 inches tall.</p>
         <p>$35</p>
