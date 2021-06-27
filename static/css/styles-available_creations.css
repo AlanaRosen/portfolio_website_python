@@ -29,15 +29,19 @@ button {
     border-radius: 8px; /*rounds the corners*/
 }
 
+/*
+Removing modal options for right now until I can get the layout right.
 .modal-header {
-    float: right; /*needed to use the class for alignment of button*/
+    float: right; /*needed to use the class for alignment of button/
 }
+*/
 
 #description_price {
     font-family: "Century Gothic", sans-serif;
     font-style: bold;
     color: white;
     text-align: center;
+    vertical-align: middle;
     padding: 25 px;
 }
 
