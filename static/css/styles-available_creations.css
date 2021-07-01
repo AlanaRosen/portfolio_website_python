@@ -10,7 +10,8 @@
   }
 
 body {
-    background-image: radial-gradient(rgb(126, 5, 75), black);
+    background-image: radial-gradient(rgb(126, 5, 75), rgb(99, 5, 52));
+    opacity: 0.5;
     overflow: auto;
 }
 
