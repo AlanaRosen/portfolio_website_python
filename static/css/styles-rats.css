@@ -9,20 +9,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Ink Free", "Century Gothic", sans-serif;
-  font-size: 19px;
-  margin-left:5%;
-  margin-right:5%;
-  text-align: center;
-  letter-spacing: 0.1em;
-  background-size: 100% 100%;
-  background-image: url("/static/img/pink.jpg");
-  background-color: gray;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 /* .videos {
   float: center;
   padding: 20px;
@@ -41,10 +27,24 @@ body {
   margin-bottom: 50px;
 }
 
+#body {
+  font-family: "Ink Free", "Century Gothic", sans-serif;
+  font-size: 19px;
+  margin-left:5%;
+  margin-right:5%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  background-size: 100% 100%;
+  background-image: url("/static/img/pink.jpg");
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 #Scribe {
-  margin: auto;
+  /*margin: auto;
   border-radius: 90%;
-  border: thick solid black;
+  border: thick solid black;*/
 }
 
 #ScribeInfo {
@@ -55,9 +55,9 @@ body {
 }
 
 #Trinidad {
-  margin: auto;
+  /*margin: auto;
   border-radius: 90%;
-  border: medium solid black;
+  border: medium solid black;*/
 }
 
 #TrinidadInfo {
@@ -68,9 +68,9 @@ body {
 }
 
 #Crimson {
-  margin: auto;
+  /*margin: auto;
   border-radius: 90%;
-  border: medium solid black;
+  border: medium solid black;*/
 }
 
 #CrimsonInfo {
@@ -81,9 +81,9 @@ body {
 }
 
 #Tiger {
-  margin: auto;
+  /*margin: auto;
   border-radius: 90%;
-  border: medium solid black;
+  border: medium solid black;*/
 }
 
 #TigerInfo {
@@ -94,9 +94,9 @@ body {
 }
 
 #SnuggleBug {
-  margin: auto;
+  /*margin: auto;
   border-radius: 90%;
-  border: medium solid black;
+  border: medium solid black;*/
 }
 
 #SnuggleBugInfo {
