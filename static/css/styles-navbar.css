@@ -1,5 +1,5 @@
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     .row, .navbar {   
       flex-direction: column;
     }
@@ -18,13 +18,13 @@
 
 /* unvisited link */
 .navbar a:link {
-    color: rgb(189, 6, 76);
+    color: hotpink;
     text-decoration: none;
   }
   
   /* visited link */
 .navbar a:visited {
-    color: rgb(250, 250, 250);
+    color: rgb(253, 253, 253);
     text-decoration: none;
   }
   

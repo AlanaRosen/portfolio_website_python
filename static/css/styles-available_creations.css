@@ -10,14 +10,17 @@
   }
 
 body {
-    background-image: radial-gradient(rgb(126, 5, 75, 0.5), rgb(73, 2, 38, 0.5));
-    overflow: auto;
+    background-image: url("/static/img/peach.jpg");
+    background-size: cover;
+    background-color: rgb(87, 147, 226);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
     margin: 35px;
     font-family: "Broadway", "Calibri", sans-serif;
-    color: rgb(178, 161, 240);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -39,7 +42,8 @@ Removing modal options for right now until I can get the layout right.
 #description_price {
     font-family: "Century Gothic", sans-serif;
     font-style: bold;
-    color: white;
+    background-color: rgb(205, 196, 238, 0.5);
+    color: rgb(0, 0, 0);
     text-align: center;
     vertical-align: middle;
     padding: 25 px;

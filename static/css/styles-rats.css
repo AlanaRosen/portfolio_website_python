@@ -1,5 +1,5 @@
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .row, .navbar {   
     flex-direction: column;
   }
@@ -14,6 +14,14 @@
   padding: 20px;
 } */
 
+body {
+  background-image: url("/static/img/orange\ leaves.jpg");
+  background-size: cover;
+  background-color: rgb(212, 79, 2);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .title {
   font-family: "Broadway", sans-serif;
   font-weight: bold;
@@ -27,81 +35,60 @@
   margin-bottom: 50px;
 }
 
-#body {
+#story {
   font-family: "Ink Free", "Century Gothic", sans-serif;
-  font-size: 19px;
-  margin-left:5%;
-  margin-right:5%;
+  font-weight: bold;
+  font-size: 17px;
   text-align: center;
   letter-spacing: 0.1em;
-  background-size: 100% 100%;
-  background-image: url("/static/img/pink.jpg");
-  background-color: gray;
-  background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-#Scribe {
-  /*margin: auto;
-  border-radius: 90%;
-  border: thick solid black;*/
+  background-color: rgb(241, 97, 210, 0.3);
+  padding: 10px;
+  border-radius: 12px;
+  margin: auto;
 }
 
 #ScribeInfo {
   margin: auto;
   padding: 9px;
-  border-radius: 9%;
   background-color: hsla(0, 0%, 100%, 0.5);
-}
-
-#Trinidad {
-  /*margin: auto;
-  border-radius: 90%;
-  border: medium solid black;*/
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 12px;
 }
 
 #TrinidadInfo {
   margin: auto;
   padding: 9px;
-  border-radius: 9%;
   background-color: hsla(0, 0%, 100%, 0.5);
-}
-
-#Crimson {
-  /*margin: auto;
-  border-radius: 90%;
-  border: medium solid black;*/
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 12px;
 }
 
 #CrimsonInfo {
   margin: auto;
   padding: 9px;
-  border-radius: 9%;
   background-color: hsla(0, 0%, 100%, 0.5);
-}
-
-#Tiger {
-  /*margin: auto;
-  border-radius: 90%;
-  border: medium solid black;*/
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 12px;
 }
 
 #TigerInfo {
   margin: auto;
   padding: 9px;
-  border-radius: 9%;
   background-color: hsla(0, 0%, 100%, 0.5);
-}
-
-#SnuggleBug {
-  /*margin: auto;
-  border-radius: 90%;
-  border: medium solid black;*/
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 12px;
 }
 
 #SnuggleBugInfo {
   margin: auto;
   padding: 9px;
-  border-radius: 9%;
   background-color: hsla(0, 0%, 100%, 0.5);
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 12px;
 }
