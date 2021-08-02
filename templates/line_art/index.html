@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<head>
+    <link href="static/css/styles-line_art.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <br> <!--create a space-->
+  </div>
+
+  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
+    <div class="row align-items-center"> <!--groups together the image, description, and price-->
+      <img src="/static/img/line_drawing_1.jpg" id="line_drawing_1" class="col-md-5 mx-auto d-block pt-3" />      
+      <img src="/static/img/line_drawing_3.jpg" id="line_drawing_3" class="col-md-5 mx-auto d-block pt-3"> 
+    </div> <!--ends the row-->
+  </div> <!--ends the fluid container-->
+
+  <br> <br>
+
+  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
+    <div class="row align-items-center"> <!--groups together the image, description, and price-->
+      <img src="/static/img/line_drawing_2.jpg" id="line_drawing_2" class="col-md-9 mx-auto d-block pt-3" />  
+    </div> <!--ends the row-->
+  </div> <!--ends the fluid container-->
+  
+  <br> <br>
+
+  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
+    <div class="row align-items-center"> <!--groups together the image, description, and price-->
+      <img src="/static/img/line_drawing_4.jpg" id="line_drawing_4" class="col-md-9 mx-auto d-block pt-3" />  
+    </div> <!--ends the row-->
+  </div> <!--ends the fluid container-->
+
+  <br> <br>
+
+  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
+    <div class="row align-items-center"> <!--groups together the image, description, and price-->
+      <img src="/static/img/line_drawing_5.jpg" id="line_drawing_5" class="col-md-9 mx-auto d-block pt-3" />  
+    </div> <!--ends the row-->
+  </div> <!--ends the fluid container-->
+
+  <div>
+    <br> <!--create a space-->
+    <br> <!--create a space-->
+    <br> <!--create a space-->
+  </div>
+      
+</body>
+
+{% endblock %}

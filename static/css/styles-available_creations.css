@@ -19,18 +19,20 @@ body {
 
 h1 {
     margin: 35px;
-    font-family: "Broadway", "Calibri", sans-serif;
+    font-family: "Georgia", serif;
+    font-size: 50px;
     color: rgb(0, 0, 0);
     text-align: center;
+    text-shadow: 10px 10px rgba(128, 128, 128, 0.726);
 }
 
-button {
+/* button {
     background-color: red;
     color: white;
     padding: 9px 13px;
     border: 5px solid rgb(223, 39, 116);
-    border-radius: 8px; /*rounds the corners*/
-}
+    border-radius: 8px; /*rounds the corners
+} */
 
 /*
 Removing modal options for right now until I can get the layout right.
@@ -40,7 +42,7 @@ Removing modal options for right now until I can get the layout right.
 */
 
 #description_price {
-    font-family: "Century Gothic", sans-serif;
+    font-family: "Century Gothic", serif;
     font-style: bold;
     background-color: rgb(205, 196, 238, 0.5);
     color: rgb(0, 0, 0);

@@ -10,6 +10,12 @@ app.config['DEBUG'] = True
 def index_home():
     return render_template('home.html', title="Well Hello")
 
+#establish url path for line art
+@app.route('/line_art', methods=['GET'])
+def index_line_art():
+    #display index.html from line_art folder
+    return render_template('line_art/index.html', title="Line Art")
+
 #establish url path for crocheted items list
 @app.route('/crochet', methods=['GET'])
 def index_crochet():
