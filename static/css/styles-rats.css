@@ -23,7 +23,7 @@ body {
 }
 
 .title {
-  font-family: "Broadway", sans-serif;
+  font-family: "Georgia", "Garamond", serif;
   font-weight: bold;
   text-align: center;
   font-size: 30px;
@@ -31,8 +31,28 @@ body {
 }
 
 #title2 {
-  margin-top: 75px;
-  margin-bottom: 50px;
+  font-family: "Georgia", "Garamond", serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  font-size: 25px;
+  margin: 40px;
+}
+
+
+
+#rat_intro {
+  font-family: "Ink Free", "Century Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  background-attachment: fixed;
+  background-color: rgb(224, 137, 6, 0.3);
+  padding: 10px;
+  margin: auto;
+  outline-style: inset;
 }
 
 #story {
@@ -48,7 +68,9 @@ body {
   margin: auto;
 }
 
-#ScribeInfo {
+
+
+#narko_info {
   margin: auto;
   padding: 9px;
   background-color: hsla(0, 0%, 100%, 0.5);
@@ -57,7 +79,7 @@ body {
   border-radius: 12px;
 }
 
-#TrinidadInfo {
+#creamsicle_info {
   margin: auto;
   padding: 9px;
   background-color: hsla(0, 0%, 100%, 0.5);
@@ -66,7 +88,7 @@ body {
   border-radius: 12px;
 }
 
-#CrimsonInfo {
+#button_info {
   margin: auto;
   padding: 9px;
   background-color: hsla(0, 0%, 100%, 0.5);
@@ -75,7 +97,7 @@ body {
   border-radius: 12px;
 }
 
-#TigerInfo {
+#biscuit_info {
   margin: auto;
   padding: 9px;
   background-color: hsla(0, 0%, 100%, 0.5);
@@ -84,7 +106,70 @@ body {
   border-radius: 12px;
 }
 
-#SnuggleBugInfo {
+#isaac_info {
+  margin: auto;
+  padding: 9px;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 12px;
+}
+
+#nicodemus_info {
+  margin: auto;
+  padding: 9px;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 12px;
+}
+
+#opal_info {
+  margin: auto;
+  padding: 9px;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 12px;
+}
+
+#scribe_info {
+  margin: auto;
+  padding: 9px;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 12px;
+}
+
+#trinidad_info {
+  margin: auto;
+  padding: 9px;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 12px;
+}
+
+#crimson_info {
+  margin: auto;
+  padding: 9px;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 12px;
+}
+
+#tiger_info {
+  margin: auto;
+  padding: 9px;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 12px;
+}
+
+#snugglebug_info {
   margin: auto;
   padding: 9px;
   background-color: hsla(0, 0%, 100%, 0.5);
