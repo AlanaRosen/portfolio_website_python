@@ -2,8 +2,26 @@
 
 {% block content %}
 
-<link href='static/css/styles-home.css' rel='stylesheet' type='text/css' />
+<head>
+    <link href='static/css/styles-home.css' rel='stylesheet' type='text/css' />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+    </style>
+</head>
 
-<div class="bg-image" style="background-image: src='/static/img/butterflies_and_shrooms.jpg'"></div>
+<body>
+    <br><br> <!--add some space to the top of the page-->
+
+  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen-->  
+    <div class="row align-items-center"> <!--used to group picture and text together-->      
+      <div class="col-lg-9" id="home_quote"> <!--defines the container size of the text (9 of 12) and when to change layout for smaller screen -sm) -->
+        <p>"May have been the losing side.</p>
+        <p>Still not convinced it was the wrong one."</p> 
+        <p id="quoter">- Captain Malcolm Reynolds</p>
+      </div>
+      <div class="col-lg-4"></div> <!--used for style purposes-->
+    </div> <!--ends the row-->
+  </div> <!--ends the fluid container-->
+</body>
 
 {% endblock %}
