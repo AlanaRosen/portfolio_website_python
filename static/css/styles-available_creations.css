@@ -23,7 +23,7 @@ h1 {
     font-size: 50px;
     color: rgb(0, 0, 0);
     text-align: center;
-    text-shadow: 10px 10px rgba(128, 128, 128, 0.726);
+    text-shadow: 3px 3px rgba(128, 128, 128, 0.726);
 }
 
 /* button {
