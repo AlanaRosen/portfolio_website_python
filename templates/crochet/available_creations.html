@@ -4,26 +4,15 @@
 
 <head>
     <link href="static/css/styles-available_creations.css" rel="stylesheet" type="text/css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Schoolbell&display=swap');
+    </style>
 </head>
 
 <body>
   
   <h1>Available Creations</h1>
-  <!-- Commented out all modal references until I can get the layout right. -->
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
-    <div class="row align-items-center"> <!--groups together the two images, description, and price-->     
-      <!-- <a data-toggle="modal" data-target="#modal_unicorn_front" href="/static/img/unicorn front.jpg"> -->
-      <img src="/static/img/unicorn front.jpg" id="unicorn_front" class="col-md-4 mx-auto d-block pt-3"/>
-      <!-- </a> -->         
-      <!-- <a data-toggle="modal" data-target="#modal_unicorn_back" href="/static/img/unicorn back.jpg"> -->
-      <img src="/static/img/unicorn back.jpg" id="unicorn_back" class="col-md-4 mx-auto d-block pt-3"/>
-      <!-- </a> -->      
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        This is a hand-made unicorn stuffed animal that measures approximately 13 inches tall.<br>
-        $45
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
+  <h2>For inquiries and/or purchases, please email me at: <a href="mailto:yarntasticadventures@gmail.com? subject=Website Inquiry">yarntasticadventures@gmail.com</a></h2>
 
   <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
     <div class="row align-items-center"> <!--groups together the image, description, and price-->
@@ -146,7 +135,34 @@
     </div> <!--ends the row-->
   </div> <!--ends the fluid container-->
 
+  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen-->
+    <div class="row align-items-center"> <!--groups together the two images, descriptions, and price-->
+      <img src="/static/img/pink_unicorn_front.jpg" id="pink_unicorn_front" class="col-md-4 mx-auto d-block pt-3"/>
+      <img src="/static/img/pink_unicorn_back.jpg" id="pink_unicorn_back" class="col-md-4 mx-auto d-block pt-3"/>
+      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
+        This is a hand-made unicorn stuffed animal that measures approximately 13 inches tall.<br>
+        $45
+      </div>
+    </div> <!--ends the row-->
+  </div> <!--ends the fluid container-->
 
+  <!-- Commented out all modal references until I can get the layout right. -->
+  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
+    <div class="row align-items-center"> <!--groups together the two images, description, and price-->     
+      <!-- <a data-toggle="modal" data-target="#modal_unicorn_front" href="/static/img/unicorn front.jpg"> -->
+      <img src="/static/img/white_unicorn_front.jpg" id="white_unicorn_front" class="col-md-4 mx-auto d-block pt-3"/>
+      <!-- </a> -->         
+      <!-- <a data-toggle="modal" data-target="#modal_unicorn_back" href="/static/img/unicorn back.jpg"> -->
+      <img src="/static/img/white_unicorn_back.jpg" id="white_unicorn_back" class="col-md-4 mx-auto d-block pt-3"/>
+      <!-- </a> -->      
+      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
+        This is a hand-made unicorn stuffed animal that measures approximately 13 inches tall.<br>
+        Not for sale - just an early prototype.
+      </div>
+    </div> <!--ends the row-->
+  </div> <!--ends the fluid container-->
+
+<br><br><br>
 
 
     <!-- The Modal for unicorn_front -->

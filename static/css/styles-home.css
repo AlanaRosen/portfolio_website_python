@@ -9,7 +9,6 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 body {
     background-image: url("/static/img/butterflies_and_shrooms.jpg");

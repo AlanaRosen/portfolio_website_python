@@ -9,6 +9,7 @@
     box-sizing: border-box;
   }
 
+
 body {
     background-image: url("/static/img/peach.jpg");
     background-size: cover;
@@ -24,6 +25,14 @@ h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     text-shadow: 3px 3px rgba(128, 128, 128, 0.726);
+}
+
+h2 {
+  margin: 0px 35px 35px 35px;
+  font-family: "Coming Soon", serif;
+  font-size: 20px;
+  color:rgb(78, 77, 77);
+  text-align: center;
 }
 
 /* button {
@@ -42,7 +51,7 @@ Removing modal options for right now until I can get the layout right.
 */
 
 #description_price {
-    font-family: "Century Gothic", serif;
+    font-family: "Coming Soon", serif;
     font-style: bold;
     background-color: rgb(205, 196, 238, 0.5);
     color: rgb(0, 0, 0);
