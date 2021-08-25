@@ -9,45 +9,108 @@
   box-sizing: border-box;
 }
 
-/* .videos {
-  float: center;
-  padding: 20px;
-} */
-
 body {
   background-image: url("/static/img/orange\ leaves.jpg");
   background-size: cover;
   background-color: rgb(212, 79, 2);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding: 20px;
 }
 
-.title {
-  font-family: "Georgia", "Garamond", serif;
+h1 {
+  font-family: "Bad Script";
   font-weight: bold;
+  font-size: 2.5rem;
   text-align: center;
-  font-size: 30px;
-  margin: 40px;
 }
 
-#title2 {
-  font-family: "Georgia", "Garamond", serif;
+h2 {
+  font-family: "Shadows Into Light";
   font-weight: bold;
-  text-align: center;
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  font-size: 25px;
-  margin: 40px;
+  font-size: 2.5rem;
 }
 
+h4 {
+  font-family: "Shadows Into Light";
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 3px;
+}
 
+p {
+  font-family: "Shadows Into Light";
+  font-size: 1.3rem;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgb(224, 137, 6);
+  padding: 10px;
+  font-style: "Shadows Into Light";
+  font-size: 1.3rem;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: rgb(224, 137, 6);
+  cursor: pointer;
+  font-family: "Shadows Into Light";
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: rgb(212, 79, 2);
+  color: white;
+}
 
 #rat_intro {
-  font-family: "Ink Free", "Century Gothic", sans-serif;
+  font-family: "Shadows Into Light";
   font-weight: bold;
-  font-size: 17px;
+  font-size: 1.3rem;
   text-align: center;
-  letter-spacing: 0.1em;
   background-attachment: fixed;
   background-color: rgb(224, 137, 6, 0.3);
   padding: 10px;
@@ -56,124 +119,12 @@ body {
 }
 
 #story {
-  font-family: "Ink Free", "Century Gothic", sans-serif;
-  font-weight: bold;
-  font-size: 17px;
+  font-family: "Bad Script";
+  font-size: 1.3rem;
   text-align: center;
-  letter-spacing: 0.1em;
   background-attachment: fixed;
   background-color: rgb(224, 137, 6, 0.3);
   padding: 10px;
   border-radius: 12px;
   margin: auto;
-}
-
-
-
-#narko_info {
-  margin: auto;
-  padding: 9px;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  border-radius: 12px;
-}
-
-#creamsicle_info {
-  margin: auto;
-  padding: 9px;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  border-radius: 12px;
-}
-
-#button_info {
-  margin: auto;
-  padding: 9px;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  border-radius: 12px;
-}
-
-#biscuit_info {
-  margin: auto;
-  padding: 9px;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  border-radius: 12px;
-}
-
-#isaac_info {
-  margin: auto;
-  padding: 9px;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  border-radius: 12px;
-}
-
-#nicodemus_info {
-  margin: auto;
-  padding: 9px;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  border-radius: 12px;
-}
-
-#opal_info {
-  margin: auto;
-  padding: 9px;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  border-radius: 12px;
-}
-
-#scribe_info {
-  margin: auto;
-  padding: 9px;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  border-radius: 12px;
-}
-
-#trinidad_info {
-  margin: auto;
-  padding: 9px;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  border-radius: 12px;
-}
-
-#crimson_info {
-  margin: auto;
-  padding: 9px;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  border-radius: 12px;
-}
-
-#tiger_info {
-  margin: auto;
-  padding: 9px;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  border-radius: 12px;
-}
-
-#snugglebug_info {
-  margin: auto;
-  padding: 9px;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  border-radius: 12px;
 }
