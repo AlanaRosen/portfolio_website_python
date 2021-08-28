@@ -19,27 +19,29 @@ body {
 }
 
 h1 {
-  font-family: "Bad Script";
+  font-family: "Rock Salt";
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
+  padding: 5px;
 }
 
 h2 {
-  font-family: "Shadows Into Light";
+  font-family: "Rock Salt";
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  padding: 5px;
 }
 
 h4 {
-  font-family: "Shadows Into Light";
+  font-family: "Rock Salt";
   font-weight: bold;
-  font-size: 2rem;
-  padding: 3px;
+  font-size: 1.8rem;
+  padding: 15px;
 }
 
 p {
-  font-family: "Shadows Into Light";
+  font-family: "Kalam";
   font-size: 1.3rem;
 }
 
@@ -77,7 +79,8 @@ p {
 .content {
   background-color: rgb(224, 137, 6);
   padding: 10px;
-  font-style: "Shadows Into Light";
+  font-style: "Kalam";
+  font-weight: bold;
   font-size: 1.3rem;
 }
 
@@ -93,8 +96,8 @@ p {
   padding: 12px 16px;
   background-color: rgb(224, 137, 6);
   cursor: pointer;
-  font-family: "Shadows Into Light";
-  font-size: 1.5rem;
+  font-family: "Rock Salt";
+  font-size: 1rem;
 }
 
 .btn:hover {
@@ -107,7 +110,7 @@ p {
 }
 
 #rat_intro {
-  font-family: "Shadows Into Light";
+  font-family: "Kalam";
   font-weight: bold;
   font-size: 1.3rem;
   text-align: center;
@@ -119,7 +122,8 @@ p {
 }
 
 #story {
-  font-family: "Bad Script";
+  font-family: "Kalam";
+  font-weight: bold;
   font-size: 1.3rem;
   text-align: center;
   background-attachment: fixed;
