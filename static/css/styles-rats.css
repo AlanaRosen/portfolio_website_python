@@ -1,5 +1,5 @@
-/* Responsive layout - when the screen is less than 992px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 992px) {
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
   .row, .navbar {   
     flex-direction: column;
   }
@@ -45,48 +45,10 @@ p {
   font-size: 1.3rem;
 }
 
-/* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
-.row {
-  margin: 10px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  display: none; /* Hide all elements by default */
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: rgb(224, 137, 6);
+.card {
+  background-color:rgb(224, 137, 6);
   padding: 10px;
-  font-style: "Kalam";
-  font-weight: bold;
-  font-size: 1.3rem;
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
+  margin: 10px;
 }
 
 /* Style the buttons */
