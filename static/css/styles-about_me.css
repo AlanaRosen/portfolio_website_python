@@ -10,8 +10,8 @@
 }
 
 body {
-  background-image: radial-gradient(black, gray, black, gray);
-  background-size: 100% 100%;
+  background-image: radial-gradient(black, rgb(85, 83, 83), black, rgb(85, 83, 83));
+  background-size: 200% 200%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -31,5 +31,18 @@ div {
 
 h4 {
   padding: 7px;
+  font-family: "Fleur De Leah";
+  font-size: 5rem;
+}
+
+h5 {
+  font-family: "Kalam";
+  font-size: 1.8rem;
+}
+
+p {
+  font-family: "Kalam";
+  font-size: 1.5rem;
+  padding: 5px 50px;
 }
 
