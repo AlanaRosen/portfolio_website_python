@@ -1,0 +1,39 @@
+/* Responsive layout - when the screen is less than 700px wide, layout adjusts for smaller screen */
+@media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+body {
+    background-image: url("/static/img/starry_night.jpg");
+    background-size: cover;
+    background-color: rgb(3, 3, 3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+h1 {
+    color: whitesmoke;
+    font-family: "Rock Salt";
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    padding: 5px;
+  }
+
+#story {
+    font-family: "Kalam";
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    background-attachment: fixed;
+    background-color: rgba(224, 221, 218, 0.7);
+    padding: 10px;
+    border-radius: 12px;
+    margin: auto;
+  }

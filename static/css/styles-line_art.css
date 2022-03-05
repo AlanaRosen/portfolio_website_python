@@ -11,4 +11,11 @@
 
   body {
     background-color: rgb(96, 96, 97);
-}
+  }
+
+  p {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Kalam";
+  }

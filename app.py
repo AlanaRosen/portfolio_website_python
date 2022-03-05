@@ -17,13 +17,13 @@ def index_line_art():
     return render_template('line_art/index.html', title="Line Art")
 
 #establish url path for crocheted items list
-@app.route('/crochet', methods=['GET'])
+@app.route('/yarntastic_adventures', methods=['GET'])
 def index_crochet():
     #display available_creations.html
     return render_template('crochet/available_creations.html', title="Yarntastic Adventures")
 
 #establish url for custom order form
-@app.route('/crochet/custom_order_form', methods=['POST','GET'])
+@app.route('/yarntastic_adventures/custom_order_form', methods=['POST','GET'])
 def index_order_form():
     if request.method == 'GET':
 	#display custom_order_form.html
@@ -34,6 +34,13 @@ def index_order_form():
 def index_rats():
     #display index.html from rat folder
     return render_template('rats/index.html', title="Rat Babies")
+
+#establish url for origin story of having rats
+@app.route('/rats/origin_story', methods=['GET'])
+def index_origin_story():
+    if request.method == 'GET':
+        #display origin_story.html
+        return render_template('rats/origin_story.html', title="Origin Story")
 
 #establish url for blog homepage
 @app.route('/blogs', methods=['GET'])
