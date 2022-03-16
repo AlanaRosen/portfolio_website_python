@@ -1,0 +1,10 @@
+/* Responsive layout - when the screen is less than 700px wide, layout adjusts for smaller screen */
+@media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }

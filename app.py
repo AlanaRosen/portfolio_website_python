@@ -22,6 +22,30 @@ def index_crochet():
     #display available_creations.html
     return render_template('crochet/available_creations.html', title="Yarntastic Adventures")
 
+#establish url path for Pride-O-Pusses
+@app.route('/yarntastic_adventures/pride-o-pusses', methods=['GET'])
+def index_prideopusses():
+    #display pride-o-pusses.html
+    return render_template('crochet/pride-o-pusses.html', title="Pride-O-Pusses")
+
+#establish url path for Mini-Pusses
+@app.route('/yarntastic_adventures/mini-pusses', methods=['GET'])
+def index_minipusses():
+    #display mini-pusses.html
+    return render_template('crochet/mini-pusses.html', title="Mini-Pusses")
+
+#establish url path for hats
+@app.route('/yarntastic_adventures/hats', methods=['GET'])
+def index_hats():
+    #display hats.html
+    return render_template('crochet/hats.html', title="Hats")
+
+#establish url path for toys
+@app.route('/yarntastic_adventures/toys', methods=['GET'])
+def index_toys():
+    #display toys.html
+    return render_template('crochet/toys.html', title="Toys")
+
 #establish url for custom order form
 @app.route('/yarntastic_adventures/custom_order_form', methods=['POST','GET'])
 def index_order_form():
