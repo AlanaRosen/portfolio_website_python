@@ -5,204 +5,198 @@
 <head>
     <link href="static/css/styles-available_creations.css" rel="stylesheet" type="text/css" />
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Schoolbell&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rampart+One&family=Coming+Soon&display=swap');
     </style>
 </head>
 
 <body>
+  <h1>For inquiries and/or purchases, please email me at: <a href="mailto:yarntasticadventures@gmail.com? subject=Website Inquiry">yarntasticadventures@gmail.com</a></h1>
+
+  <h2>Yarntastic Adventures</h2>
+<!-- buttons on top to specify imgs displayed below -->
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show All </button>
+  <button class="btn" onclick="filterSelection('Pride-O-Pusses')"> Pride-O-Pusses </button>
+  <button class="btn" onclick="filterSelection('Mini-Pusses')"> Mini-Pusses </button>
+  <button class="btn" onclick="filterSelection('Micro-Pusses')"> Micro-Pusses </button>
+  <!-- <button class="btn" onclick="filterSelection('Ear-Pusses')"> Ear-Pusses </button> -->
+</div>
+<!-- end of buttons -->
+
+<!-- crochet gallery main grid -->
+<div class="row">
+  <!-- Pride-O-Pusses section -->
+  <div class="column Pride-O-Pusses">
+    <div class="content">
+      <img src="/static/img/Pride-O-Puss--rainbow_trans_1_square.jpg" alt="" style="width:100%">
+      <h3>LGBTQ+ Pride-O-Puss</h3>
+      <p>$8 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <div class="column Pride-O-Pusses">
+    <div class="content">
+      <img src="/static/img/Pride-O-Puss--rainbow_trans_2_square.jpg" alt="" style="width:100%">
+      <h3>LGBTQ+ Pride-O-Puss</h3>
+      <p>$8 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <div class="column Pride-O-Pusses">
+    <div class="content">
+      <img src="/static/img/Pride-O-Puss--lesbian_1_square.jpg" alt="" style="width:100%">
+      <h3>Lesbian Pride-O-Puss</h3>
+      <p>$8 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <div class="column Pride-O-Pusses">
+    <div class="content">
+      <img src="/static/img/Pride-O-Puss--lesbian_2_square.jpg" alt="" style="width:100%">
+      <h3>Lesbian Pride-O-Puss</h3>
+      <p>$8 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <div class="column Pride-O-Pusses">
+    <div class="content">
+      <img src="/static/img/Pride-O-Puss--lesbian_3_square.jpg" alt="" style="width:100%">
+      <h3>Lesbian Pride-O-Puss</h3>
+      <p>$8 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <div class="column Pride-O-Pusses">
+    <div class="content">
+      <img src="/static/img/Pride-O-Puss--trans_1_square.jpg" alt="" style="width:100%">
+      <h3>Transgender Pride-O-Puss</h3>
+      <p>$8 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <div class="column Pride-O-Pusses">
+    <div class="content">
+      <img src="/static/img/Pride-O-Puss--trans_2_square.jpg" alt="" style="width:100%">
+      <h3>Transgender Pride-O-Puss</h3>
+      <p>$8 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <div class="column Pride-O-Pusses">
+    <div class="content">
+      <img src="/static/img/Pride-O-Puss--trans_3_square.jpg" alt="" style="width:100%">
+      <h3>Transgender Pride-O-Puss</h3>
+      <p>$8 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <div class="column Pride-O-Pusses">
+    <div class="content">
+      <img src="/static/img/Pride-O-Puss--trans_4_square.jpg" alt="" style="width:100%">
+      <h3>Transgender Pride-O-Puss</h3>
+      <p>$8 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <!-- end of Pride-O-Pusses section -->
+
+  <!-- Mini-Pusses section -->
+  <div class="column Mini-Pusses">
+    <div class="content">
+      <img src="/static/img/Mini-Pride-O-Puss--trans_1_square.jpg" alt="" style="width:100%">
+      <h3>Transgender Mini-Puss</h3>
+      <p>$5 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <div class="column Mini-Pusses">
+    <div class="content">
+      <img src="/static/img/Mini-Pride-O-Puss--trans_4_square.jpg" alt="" style="width:100%">
+      <h3>Transgender Mini-Puss</h3>
+      <p>$5 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <!-- end of Mini-Pusses section -->
+
+  <!-- Micro-Pusses section -->
+  <div class="column Micro-Pusses">
+    <div class="content">
+      <img src="/static/img/Micro-Puss_1_square.jpg" alt="" style="width:100%">
+      <h3>Micro-Puss</h3>
+      <p>$5 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <div class="column Micro-Pusses">
+    <div class="content">
+      <img src="/static/img/Micro-Puss_2_square.jpg" alt="" style="width:100%">
+      <h3>Micro-Puss</h3>
+      <p>$5 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <div class="column Micro-Pusses">
+    <div class="content">
+      <img src="/static/img/Micro-Puss_3_square.jpg" alt="" style="width:100%">
+      <h3>Micro-Puss</h3>
+      <p>$5 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <div class="column Micro-Pusses">
+    <div class="content">
+      <img src="/static/img/Micro-Puss_4_square.jpg" alt="" style="width:100%">
+      <h3>Micro-Puss</h3>
+      <p>$5 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
+  <div class="column Micro-Pusses">
+    <div class="content">
+      <img src="/static/img/Micro-Puss_5_square.jpg" alt="" style="width:100%">
+      <h3>Micro-Puss</h3>
+      <p>$5 + shipping/handling<br>Customizations available.</p>
+    </div>
+  </div>
   
-  <h1>Available Creations</h1>
-  <h2>For inquiries and/or purchases, please email me at: <a href="mailto:yarntasticadventures@gmail.com? subject=Website Inquiry"><strong>yarntasticadventures@gmail.com</strong></a></h2>
+  <!-- end of Hats section -->
+</div> 
+<!-- end of crochet gallery main grid -->
 
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
-    <div class="row align-items-center"> <!--groups together the image, description, and price-->
-      <img src="/static/img/Pride-O-Pusses__Agender.jpg" id="agender" class="col-md-8 mx-auto d-block pt-3" alt="Crocheted octopuses about three inches in size made of the Pride colors for agender people, which are green, gray, black, and white."/>      
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        Pride-O-Pusses&trade; - Agender<br>
-        Customization available.<br>
-        $8 + shipping.handling
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
-
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
-    <div class="row align-items-center"> <!--groups together the image, description, and price-->
-      <img src="/static/img/Pride-O-Pusses__Asexual.jpg" id="asexual" class="col-md-8 mx-auto d-block pt-3" alt="Crocheted octopuses about three inches in size made of the Pride colors for asexual people, which are white, black, gray, and purple."/>
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        Pride-O-Pusses&trade; - Asexual<br>
-        Customization available.<br>
-        $8 + shipping.handling
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
-
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
-    <div class="row align-items-center"> <!--groups together the image, description, and price-->
-      <img src="/static/img/Pride-O-Pusses__Bisexual.jpg" id="bisexual" class="col-md-8 mx-auto d-block pt-3" alt="Crocheted octopuses about three inches in size made of the Pride colors for bisexual people, which are blue, pink, and purple."/>      
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        Pride-O-Pusses&trade; - Bisexual<br>
-        Customization available.<br>
-        $8 + shipping.handling
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
-
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
-    <div class="row align-items-center"> <!--groups together the image, description, and price-->
-      <img src="/static/img/Pride-O-Pusses__Genderfluid.jpg" id="genderfluid" class="col-md-8 mx-auto d-block pt-3" alt="Crocheted octopuses about three inches in size made of the Pride colors for genderfluid people, which are pink, purple, blue, black, and white."/>      
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        Pride-O-Pusses&trade; - Genderfluid<br>
-        Customization available.<br>
-        $8 + shipping.handling
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
-
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
-    <div class="row align-items-center"> <!--groups together the image, description, and price-->
-      <img src="/static/img/Pride-O-Pusses__Genderqueer.jpg" id="genderqueer" class="col-md-8 mx-auto d-block pt-3" alt="Crocheted octopuses about three inches in size made of the Pride colors for genderqueer people, which are purple, white, and green."/>      
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        Pride-O-Pusses&trade; - Genderqueer<br>
-        Customization available.<br>
-        $8 + shipping.handling
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
-
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
-    <div class="row align-items-center"> <!--groups together the image, description, and price-->
-      <img src="/static/img/Pride-O-Pusses__Non-Binary.jpg" id="non-binary" class="col-md-8 mx-auto d-block pt-3" alt="Crocheted octopuses about three inches in size made of the Pride colors for non-binary people, which are white, black, yellow, and purple."/>      
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        Pride-O-Pusses&trade; - Non-Binary<br>
-        Customization available.<br>
-        $8 + shipping.handling
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
-
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
-    <div class="row align-items-center"> <!--groups together the image, description, and price-->
-      <img src="/static/img/Pride-O-Pusses__Pansexual.jpg" id="pansexual" class="col-md-8 mx-auto d-block pt-3" alt="Crocheted octopuses about three inches in size made of the Pride colors for pansexual people, which are blue, yellow, and pink."/>      
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        Pride-O-Pusses&trade; - Pansexual<br>
-        Customization available.<br>
-        $8 + shipping.handling
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
-
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
-    <div class="row align-items-center"> <!--groups together the image, description, and price-->
-      <img src="/static/img/Pride-O-Pusses__Polyamory.jpg" id="polyamory" class="col-md-8 mx-auto d-block pt-3" alt="Crocheted octopuses about three inches in size made of the Pride colors for polyamorous people, which are red, blue, and black."/>      
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        Pride-O-Pusses&trade; - Polyamory<br>
-        Customization available.<br>
-        $8 + shipping.handling
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
-
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
-    <div class="row align-items-center"> <!--groups together the image, description, and price-->
-      <img src="/static/img/Pride-O-Pusses__Polysexual.jpg" id="polysexual" class="col-md-8 mx-auto d-block pt-3" alt="Crocheted octopuses about three inches in size made of the Pride colors for polysexual people, which are blue, green, and pink."/>      
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        Pride-O-Pusses&trade; - Polysexual<br>
-        Customization available.<br>
-        $8 + shipping.handling
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
-
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
-    <div class="row align-items-center"> <!--groups together the image, description, and price-->
-      <img src="/static/img/Pride-O-Pusses__Transgender.jpg" id="transgender" class="col-md-8 mx-auto d-block pt-3" alt="Crocheted octopuses about three inches in size made of the Pride colors for transgender people, which are white, pale pink, and pale blue."/>      
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        Pride-O-Pusses&trade; - Transgender<br>
-        Customization available.<br>
-        $8 + shipping.handling
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
-
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
-    <div class="row align-items-center"> <!--groups together the image, description, and price-->
-      <img src="/static/img/Pride-O-Pusses__Rainbow.jpg" id="rainbow" class="col-md-8 mx-auto d-block pt-3" alt="Crocheted octopuses about three inches in size made of the Pride rainbow colors, with one tentacle each of red, orange, yellow, green, blue, purple, pink, and brown."/>      
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        Pride-O-Pusses&trade; - Rainbow<br>
-        Customization available.<br>
-        $8 + shipping.handling
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
-
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen-->
-    <div class="row align-items-center"> <!--groups together the two images, descriptions, and price-->
-      <img src="/static/img/pink_unicorn_front.jpg" id="pink_unicorn_front" class="col-md-4 mx-auto d-block pt-3"/>
-      <img src="/static/img/pink_unicorn_back.jpg" id="pink_unicorn_back" class="col-md-4 mx-auto d-block pt-3"/>
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        This is a hand-made unicorn stuffed animal that measures approximately 13 inches tall.<br>
-        $45
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
-
-  <!-- Commented out all modal references until I can get the layout right. -->
-  <div class="container-fluid"> <!--allows columns (text or image) to expand or shrink with screen--> 
-    <div class="row align-items-center"> <!--groups together the two images, description, and price-->     
-      <!-- <a data-toggle="modal" data-target="#modal_unicorn_front" href="/static/img/unicorn front.jpg"> -->
-      <img src="/static/img/white_unicorn_front.jpg" id="white_unicorn_front" class="col-md-4 mx-auto d-block pt-3"/>
-      <!-- </a> -->         
-      <!-- <a data-toggle="modal" data-target="#modal_unicorn_back" href="/static/img/unicorn back.jpg"> -->
-      <img src="/static/img/white_unicorn_back.jpg" id="white_unicorn_back" class="col-md-4 mx-auto d-block pt-3"/>
-      <!-- </a> -->      
-      <div class="col-md-4" id="description_price"> <!--defines the container size of the text and when to change layout for smaller screen-->
-        This is a hand-made unicorn stuffed animal that measures approximately 13 inches tall.<br>
-        Not for sale - just an early prototype.
-      </div>
-    </div> <!--ends the row-->
-  </div> <!--ends the fluid container-->
-
-<br><br><br>
-
-
-    <!-- The Modal for unicorn_front -->
-    <!-- <div class="modal" id="modal_unicorn_front">
-      <div class="modal-dialog modal-lg"> <!- body of modal ->
-
-          <!- Modal Close Button ->
-          <div class="modal-header">
-            <button type="button" data-dismiss="modal">&times;
-            </button>
-          </div>
-
-          <!- Modal body ->
-          <div class="modal-body">
-            <img class="img-fluid" src="/static/img/unicorn front.jpg" alt="front of a white stuff animal unicorn roughly 13 inches tall with multicolored curly hair" />
-          </div>
-
-      </div> <!- modal-dialog div ->
-    </div> <!- modal_unicorn_front div ->
-      
-
-    <! - The Modal for unicorn_back ->
-    <div class="modal" id="modal_unicorn_back">
-      <div class="modal-dialog modal-lg"> <!- body of modal ->
-
-          <!-  Modal Close Button ->
-          <div class="modal-header">
-            <button type="button" data-dismiss="modal">&times;</button>
-          </div>
-
-          <!- Modal body ->
-          <div class="modal-body">
-            <img class="img-fluid" src="/static/img/unicorn back.jpg" alt="back of a white stuff animal unicorn roughly 13 inches tall with multicolored curly hair" />
-          </div>
-
-      </div> <!- modal-dialog div ->
-    </div> <!- modal_unicorn_back div ->    
-  -->        
-                
+<!-- JavaScript to make it interactive -->
+<script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
   
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+
+  <br><br><br>
 
 </body>
 
