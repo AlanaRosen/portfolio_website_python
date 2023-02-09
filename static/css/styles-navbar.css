@@ -13,19 +13,19 @@
     font-family: "Magneto", "Century Gothic", sans-serif;
     font-size: 29px;
     margin-top: 37px;
-    color: rgb(235, 18, 144);
-    text-shadow: 2px 2px 4px black;
+    color: hotpink;
+    text-shadow: 1px 1px 1px black;
 }
 
 /* unvisited link */
 .navbar a:link {
-    color: hotpink;
+    color: rgb(235, 18, 144);
     text-decoration: none;
   }
   
   /* visited link */
 .navbar a:visited {
-    color: hotpink;
+    color: rgb(235, 18, 144);
     text-decoration: none;
   }
   

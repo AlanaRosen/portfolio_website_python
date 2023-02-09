@@ -20,16 +20,16 @@ body {
 
 h1 {
   font-family: "Coming Soon", serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color:hsl(0, 1%, 30%);
   text-align: center;
   margin: 35px 35px 15px 35px;
 }
 
 h2 {
-  font-family: "Rampart One";
+  font-family: "Oleo Script Swash Caps";
   font-size: 5rem;
-  color:rgb(0, 0, 0);
+  color:rgb(110, 3, 3);
   text-align: center;
   margin: 15px 35px 35px 35px;
 }
