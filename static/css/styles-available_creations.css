@@ -49,48 +49,20 @@ p {
   text-align: center;
 }
 
-/* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
-.row {
-  margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  display: none; /* Hide columns by default */
-}
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: rgb(187, 183, 183);
+.card {
+  background-color:rgb(187, 183, 183);
   padding: 10px;
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 0 5px 9px 0 rgba(0,0,0,0.5);
 }
 
 /* Style the buttons */
+button {
+  margin: 5px;
+}
+
 .btn {
   border: none;
   outline: none;
@@ -110,6 +82,10 @@ p {
 .btn.active {
   background-color: rgb(92, 91, 91);
    color: white;
+}
+
+#myBtnContainer {
+  align-self: center;
 }
 
 
