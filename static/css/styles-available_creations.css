@@ -56,6 +56,10 @@ p {
   box-shadow: 0 5px 9px 0 rgba(0,0,0,0.5);
 }
 
+.row {
+  align-content: center;
+}
+
 /* Style the buttons */
 button {
   margin: 5px;

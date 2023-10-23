@@ -10,7 +10,7 @@
   }
 
   body {
-    background-image: radial-gradient(gray, rgb(167, 124, 124), rgb(230, 113, 113));
+    background-image: radial-gradient(gray, rgb(184, 167, 167), rgb(58, 55, 55));
     background-size: 150% 150%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,4 +21,10 @@
     font-size: 1.3rem;
     text-align: center;
     font-family: "Kalam";
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .card {
+    margin: 10px;
   }
