@@ -1,4 +1,4 @@
-runtime: python37
+runtime: python312
 instance_class: F1
 automatic_scaling:
   target_cpu_utilization: 0.6 # default value
